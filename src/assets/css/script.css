@@ -1,0 +1,190 @@
+a.nav-link{
+  text-transform: uppercase;
+  font: 18px 'opensans-bold', sans-serif;
+}
+
+a.nav-link:hover{
+  color:#a6a6a6 !important;
+}
+
+.nav-color{
+  background: linear-gradient(180deg, #010f3e 2%, #0e0512 90%) no-repeat;
+}
+
+/* Profile image */
+.profile-img{
+  width: 240px;
+  margin: 0 auto;
+  display: block;
+  clip-path: circle(120px at center);
+}
+
+.header-section{
+  background: url('../images/background/laptop1.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+}
+
+.header-name{
+  font-size: 6em;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.header-description{
+  font-size: 1.3em;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.header-section .scrolldown a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: black;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 30px;
+  line-height: 45px;
+  border-radius: 100%;
+  background: white;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.header-section .scrolldown a:hover { background-color: #11ABB0; }
+
+/* Horizontal line */
+.line{
+  color: #b4b4b4;
+  border-width: 3px;
+}
+
+#about{
+  background: linear-gradient(45deg, #DAE2F8 30%, #D6A4A4 90%) no-repeat;
+}
+
+#portfolio{
+  background: linear-gradient(45deg, #DAE2F8 30%, #D6A4A4 90%) no-repeat;
+}
+
+.heading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#575a60, #711a8c);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modelHeading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#575a60, #9d37bb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Skills icon container */
+.skill-container {
+  padding: 60px 30px;
+  /* background-color: #eee; */
+  
+}
+
+/* Footer */
+footer{
+  position: relative;
+  /* background : Radial-gradient(ellipse at bottom,#011968,#0e0512); */
+  background: linear-gradient(0deg, #010f3e 2%, #0e0512 90%) no-repeat;
+  color: #9dc6d8;
+}
+
+/* Footer icons */
+.icon{
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.icon:hover {
+  transform: scale(1.3);
+  color: white !important;
+}
+
+.social-link:hover{
+  transform: scale(1.2);
+}
+
+.card-style:hover{
+  transform: scale(1.02);
+}
+
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -24px;
+  left: 50%;
+  margin-left: -30px;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #4d4d4d;
+
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
+ 	border-radius: 100%;
+}
+
+#go-top a:hover { background-color: #0F9095; }
+
+
+/* Small Devices */
+@media screen and (max-width: 575.98px){
+  .header-name{
+    font-size: 3em;
+  }
+  
+  .header-description{
+    font-size: 1.02em;
+  }
+
+  ul.navbar.nav.justify-content-start{
+    padding-left: 0px ;
+    padding-right: 0px;
+  }
+
+  a.nav-link{
+    padding-left: 5px;
+    font: 15px 'opensans-bold', sans-serif;
+    /* padding-right: 8px; */
+  }
+}
+
+@media (max-width: 768px) and (min-width: 575.98px ) {
+  .header-name{
+    font-size: 4em;
+  }
+  
+  .header-description{
+    font-size: 1.2em;
+  }
+
+  .profile-img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    clip-path: circle(100px at center);
+  }
+}
