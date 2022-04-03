@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import profile from '../../assets/images/Gauri.jpg';
+import profile from '../../assets/images/oliviercharles.jpg';
 import '../../assets/css/script.css';
 
 export default function About() {
