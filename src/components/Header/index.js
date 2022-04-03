@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <>
       <div className= "text-center header-section justify-content-center text-white">
-        <h1 className="header-name">I'm Gauri Khandke</h1>
-        <p className="header-description">Full Stack Web Developer in Seattle, Washington</p>
+        <h1 className="header-name">I'm Olivier Charles</h1>
+        <p className="header-description">Soon to be Full Stack Web Developer in NYC</p>
         <div className ='container mb-3 mt-4' >
             <a href="https://github.com/Oldales" className="btn tooltip-test icon" title="Github" target="_blank" rel="noopener noreferrer"
                 style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><i className="fab fa-github"></i></a>

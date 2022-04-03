@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/script.css';
-import resume from '../../assets/GauriKhandkeResume.pdf';
+import resume from '../../assets/OlivierCharlesResume.pdf';
 
 export default function Footer() {
     return (
