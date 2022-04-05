@@ -19,7 +19,7 @@ export default function About() {
 					<div className="row">
 						<div className="col-md-3 col-sm-12 d-flex align-items-center justify-content-center">
 							<div>
-								<img src={profile} className="d-flex profile-img" alt="Gauri Khandke" />
+								<img src={profile} className="d-flex profile-img" alt="Olivier Charles" />
 							</div>
 						</div>
 
